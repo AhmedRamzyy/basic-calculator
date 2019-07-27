@@ -8,7 +8,7 @@ body{margin: 0;padding: 0;
 
 h1{width: fit-content;margin: 20px auto;color: #fff;}
 
-.box {background-color: #1d89ffba;width: 250px;margin: 40px auto;border-radius: 20px;padding: 30px 10px;}
+.box {background-color: #1d89ffba;width: 300px;margin: 40px auto;border-radius: 20px;padding: 30px 10px;}
 
 input{
     height: 40px;
@@ -21,9 +21,8 @@ input{
 }
 #result
 {
-    height: 40px;
-    width: 100%;
-    padding: 0 10px;
+    padding: 35px;
+    text-align: center;
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #fff;
@@ -37,8 +36,8 @@ input{
     margin-top: 10px;
 }
 .row button{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
     border: 0;
     outline: 0;
