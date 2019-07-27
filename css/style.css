@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+
+body{margin: 0;padding: 0;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+h1{width: fit-content;margin: 20px auto;color: #fff;}
+
+.box {background-color: #1d89ffba;width: 250px;margin: 40px auto;border-radius: 20px;padding: 30px 10px;}
+
+input{
+    height: 40px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#result
+{
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.row{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.row button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+button.gray {background-color: #444444;}
