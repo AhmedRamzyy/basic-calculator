@@ -6,7 +6,17 @@ h1 {width: fit-content;margin: 20px auto;color: #fff;}
 
 .box {background-color: #1d89ffba;width: 300px;margin: 40px auto;border-radius: 20px;padding: 30px 10px;}
 
-input{height: 40px;width: 100%;border: 0;outline: 0;padding: 10px;border-radius: 10px;margin-bottom: 10px}
+input {
+    height: 40px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 #result{
     padding: 35px;

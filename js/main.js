@@ -8,11 +8,6 @@ var subtractButton = document.getElementById("subtract");
 var divideButton = document.getElementById("divide");
 var multiplyButton = document.getElementById("multiply");
 
-addButton.addEventListener("click", add);
-subtractButton.addEventListener("click", subtract);
-divideButton.addEventListener("click", divide);
-multiplyButton.addEventListener("click", multiply);
-
 function add(){
     var one = parseFloat(numOne.value) || 0 ;
     var two = parseFloat(numTwo.value) || 0  ;
@@ -25,16 +20,15 @@ function subtract(){
 
     answer.innerHTML = "Answer: " + (one-two);
 }
-function divide(){
-    var one = parseFloat(numOne.value) || 0  ;
-    var two = parseFloat(numTwo.value) || 0  ;
-
-    answer.innerHTML = "Answer: " + (one/two);
-}
 function multiply(){
     var one = parseFloat(numOne.value) || 0  ;
     var two = parseFloat(numTwo.value) || 0  ;
 
     answer.innerHTML = "Answer: " + (one*two);
 }
+function divide(){
+    var one = parseFloat(numOne.value) || 0  ;
+    var two = parseFloat(numTwo.value) || 0  ;
 
+    answer.innerHTML = "Answer: " + (one/two);
+}

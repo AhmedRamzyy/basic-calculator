@@ -11,17 +11,17 @@
 </head>
 
 <body>
-    <h1>Basic Calculator</h1>
+    <h1>Simple Calculator</h1>
     <div class="box">
         <input id="num_one" placeholder="First Number">
         <input id="num_two" placeholder="Second Number">
         <div id="result"></div>
         <div class="keys">
             <div class="row">
-                <button id="add" class="gray bttn-pill bttn-lg bttn-primary">+</button>
-                <button id="subtract" class="gray bttn-pill bttn-lg bttn-primary">-</button>
-                <button id="multiply" class="gray bttn-pill bttn-lg bttn-primary">*</button>
-                <button id="divide" class="gray bttn-pill bttn-lg bttn-primary">/</button>
+                <button id="add" class="gray bttn-pill bttn-lg bttn-primary" onclick="add()">+</button>
+                <button id="subtract" class="gray bttn-pill bttn-lg bttn-primary" onclick="subtract()">-</button>
+                <button id="multiply" class="gray bttn-pill bttn-lg bttn-primary" onclick="multiply()">*</button>
+                <button id="divide" class="gray bttn-pill bttn-lg bttn-primary" onclick="divide()">/</button>
             </div>
         </div>
     </div>
